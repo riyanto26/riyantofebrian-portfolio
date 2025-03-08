@@ -421,10 +421,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(0 0 3px var(--main-color));
   border-radius: 10px;
   background: var(--other-color);
-  transition: all 0.5s ease;
 }
 .skill-card .card-icon img {
   width: 40px;
@@ -1019,13 +1017,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: drop-shadow(0 0 3px var(--main-color));
     border-radius: 10px;
     background: var(--other-color);
-    transition: all 0.5s ease;
-  }
-  .skill-card:hover {
-    transform: scale(1.2);
   }
   .skill-card .card-icon img {
     width: 30px;
@@ -1270,10 +1263,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: drop-shadow(0 0 3px var(--main-color));
     border-radius: 10px;
     background: var(--other-color);
-    transition: all 0.5s ease;
   }
   .skill-card .card-icon img {
     width: 20px;
