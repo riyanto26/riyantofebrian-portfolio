@@ -101,26 +101,8 @@ btnDesign.addEventListener("click", function () {
   btnDesign.classList.add("active");
   btnIT.classList.remove("active");
 });
-var modal = document.getElementById("imageModal");
-var modalImg = document.getElementById("modalImage");
-var captionText = document.getElementById("caption");
-var images = document.querySelectorAll(".portofolio-content img");
-images.forEach((img) => {
-  img.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  };
-});
-var closeBtn = document.getElementsByClassName("close")[0];
-closeBtn.onclick = function () {
-  modal.style.display = "none";
-};
-modal.onclick = function (event) {
-  if (event.target === modal) {
-    modal.style.display = "none";
-  }
-};
+
+
 function updateClock() {
   const now = new Date();
   let hours = now.getHours();
@@ -135,3 +117,5 @@ function updateClock() {
 }
 setInterval(updateClock, 1e3);
 updateClock();
+
+
