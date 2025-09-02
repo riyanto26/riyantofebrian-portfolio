@@ -20,14 +20,9 @@
 body.light-theme {
   --text-color: #393e46;
   --bg-color: #fff;
-  --second-bg-color: #f9ebcc;
-  --main-color: #3f72af;
+  --second-bg-color: #fff;
+  --main-color: #1f1f1f;
   --other-color: #323232;
-  /* --text-color: #393e46;
-  --bg-color: #fff8ea;
-  --second-bg-color: #f9ebcc;
-  --main-color: #3f72af;
-  --other-color: #323232; */
 }
 body.dark-theme {
   --text-color: #f6f6f6;
@@ -35,11 +30,6 @@ body.dark-theme {
   --second-bg-color: #323232;
   --main-color: #3f72af;
   --other-color: #fff;
-  /* --text-color: #f6f6f6;
-  --bg-color: #393e46;
-  --second-bg-color: #323232;
-  --main-color: #3f72af;
-  --other-color: #fff8ea; */
 }
 /* default tema gelap */
 .logo-light { display: inline-block; }
@@ -592,6 +582,7 @@ section {
 
 .portfolio-item {
   background: var(--second-bg-color);
+  border: 1px solid #1f1f1f;
   border-radius: 12px;
   overflow: hidden;
   text-align: center;
